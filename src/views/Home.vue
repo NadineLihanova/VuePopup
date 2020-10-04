@@ -2,7 +2,7 @@
     <div>
         <app-timer></app-timer>
         <app-popup>
-          <app-form></app-form>
+            <app-form></app-form>
         </app-popup>
     </div>
 </template>
@@ -21,7 +21,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-
-</style>

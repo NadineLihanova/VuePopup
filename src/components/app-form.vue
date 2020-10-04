@@ -66,13 +66,13 @@ export default {
     },
     methods: {
         async send() {
-          let promise = new Promise((resolve) => {
-              setTimeout(() => resolve('success'), 2000)
-          });
-          let result = await promise;
-          if (result === 'success') {
-              console.log('email: ', this.email);
-          }
+            let promise = new Promise((resolve) => {
+                setTimeout(() => resolve('success'), 2000)
+            });
+            let result = await promise;
+            if (result === 'success') {
+                console.log('email: ', this.email);
+            }
         },
         submit() {
             this.$v.email.$touch();
